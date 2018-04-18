@@ -1,0 +1,1 @@
+Symbol Table : [TablesParameters [token=A, address=203], TablesParameters [token=LOOP, address=206], TablesParameters [token=B, address=209], TablesParameters [token=NEXT, address=215], TablesParameters [token=BACK, address=206], TablesParameters [token=LAST, address=226]]Symbol Table Tokens  : [A, LOOP, B, NEXT, BACK, LAST]Symbol Table Address : [203, 206, 209, 215, 206, 226]

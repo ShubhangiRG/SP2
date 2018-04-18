@@ -1,0 +1,13 @@
+read link -f $(which java)
+
+cd 3416
+ls
+gedit JNITest.java
+java JNITest.java
+java JNITest
+gedit jnitest.cpp
+
+g++ -fPIC -shared -I/  java path   64/include -I/  java path    64/include/linux -I/home/ccoew/3416/ -o/home/ccoew/3416/mynativelib.so /home/ccoew/3416/ jnitest.cpp
+
+
+java -Djava.library.path=/home/ccoew/3416 JNITest 
